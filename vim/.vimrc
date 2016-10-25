@@ -25,7 +25,7 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 "Plug 'amiorin/vim-project'
 Plug 'tomasr/molokai'
 "Plug 'captbaritone/molokai'
-"Plug 'vim-scripts/taglist.vim' "requiere paquete ctags
+Plug 'vim-scripts/taglist.vim' "requiere paquete ctags
 Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer'}
 "Plug 'Fugitive'    "integracion de git
 "Plug 'gdbvim'      
