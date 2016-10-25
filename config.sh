@@ -37,7 +37,11 @@ ls -al ~ | grep vim
 ls -al ~ | grep bash
 ls -al ~ 1 grep ssh
 
+sudo apt-get install build-essential cmake python-dev python3-dev clang-3.8
+sudo apt-get install vim-nox //need to vim plugin youcompleteme
+sudo apt-get install exuberant-ctags    //need to plugin taglist
 
+#Install vim-plug
 curl -sfLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 vim +PlugInstall +qall

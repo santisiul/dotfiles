@@ -23,12 +23,13 @@ call plug#begin('~/.vim/plugged')
 "On-demand loading
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 "Plug 'amiorin/vim-project'
-"Plug 'tomasr/molokai'
-Plug 'captbaritone/molokai'
-"Plug 'vim-scripts/ctags.vim'
-Plug 'vim-scripts/taglist.vim' "requiere paquete ctags
-Plug 'Valloric/YouCompleteMe', {'do': './install.py'}
-
+Plug 'tomasr/molokai'
+"Plug 'captbaritone/molokai'
+"Plug 'vim-scripts/taglist.vim' "requiere paquete ctags
+Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer'}
+"Plug 'Fugitive'    "integracion de git
+"Plug 'gdbvim'      
+"Plug 'AutoCompIPop
 
 call plug#end()	
 color molokai
